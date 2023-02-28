@@ -1,3 +1,10 @@
+"""
+Peter Demachkie
+pdemachk@uscs.edu
+https://github.com/PeterDemachkie
+"""
+
+
 from PIL import Image
 import sys, os
 
