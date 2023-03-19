@@ -2,6 +2,7 @@
 Peter Demachkie
 pdemachk@uscs.edu
 https://github.com/PeterDemachkie
+PicToAscii.py
 """
 
 
