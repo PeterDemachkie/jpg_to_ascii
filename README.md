@@ -10,7 +10,13 @@ Repository Contents:
 
 Description:
 
-    jpg_to_ascii is essentially what is stated in the title: a program that converts jpg images into ascii text. I wrote this program in python because it was all I knew how to use at the time and it was just a simple project. Someday I will probably update this to work for other image types, but for now it just works for jpgs. Another improvement to make would be for the program to automatically open the new ascii file.
+    jpg_to_ascii is essentially what is stated in the title: 
+    a program that converts jpg images into ascii text. I wrote 
+    this program in python because it was all I knew how to use 
+    at the time and it was just a simple project. Someday I will 
+    probably update this to work for other image types, but for 
+    now it just works for jpgs. Another improvement to make would 
+    be for the program to automatically open the new ascii file.
 
 How To:
 
@@ -21,3 +27,5 @@ How To:
     in a directory that contains both the python script as well as the jpg
 
     The script will have created a new file in this directory named <jpgfilename>Ascii.txt
+
+    Note: The python PIL library must be installed for the program to run
