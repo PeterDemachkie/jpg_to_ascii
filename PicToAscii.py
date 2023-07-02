@@ -11,6 +11,7 @@ import sys, os
 
 img_file = str(sys.argv[1])
 
+# Checking command line arguments
 if len(sys.argv) != 2:
     raise ValueError("Usage: python ascii_to_jpg.py <filename>")
 if img_file [-4:] != ".jpg":
@@ -24,6 +25,7 @@ imgcolor = Image.open(img_file)
 img = imgcolor.convert('L')
 width, height = img.size
 
+# Resizing image
 if width > 100:
     mult = (2 * round((width/100), 2))
     width = 100
